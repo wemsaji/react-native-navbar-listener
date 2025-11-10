@@ -35,5 +35,13 @@
         "typescript": "^5.2.0"
     },
     "author": "wemsaji <mitsumasa.saji@vv-e-nn.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wemsaji/react-native-navbar-listener.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wemsaji/react-native-navbar-listener/issues"
+    },
+    "homepage": "https://github.com/wemsaji/react-native-navbar-listener#readme"
 }
