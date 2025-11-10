@@ -25,8 +25,10 @@ class NavBarListenerModule(
     private val reactContext: ReactApplicationContext
 ) : ReactContextBaseJavaModule(reactContext) {
 
-    private const val NAME = "NavBarListener"
-    private const val EVENT_NAME = "NavBarHeightChanged"
+    companion object {
+        private const val NAME = "NavBarListener"
+        private const val EVENT_NAME = "NavBarHeightChanged"
+    }
 
     override fun getName(): String = NAME
 

@@ -1,6 +1,6 @@
 {
     "name": "react-native-navbar-listener",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "Detect Android navigation bar height and visibility changes in React Native / Expo Custom Build.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -14,7 +14,6 @@
         "android",
         "ios",
         "app.plugin.js",
-        "NavBarListener.podspec",
         "react-native.config.js",
         "!android/.gradle",
         "!android/build"

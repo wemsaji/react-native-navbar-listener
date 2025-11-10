@@ -1,6 +1,6 @@
 require "json"
 
-package = JSON.parse(File.read(File.join(__dir__, "package.json")))
+package = JSON.parse(File.read(File.join(__dir__, "..", "package.json")))
 
 Pod::Spec.new do |s|
   s.name         = "NavBarListenerModule"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "11.0" }
 
   # No source files needed for iOS since we handle everything in JS
-  s.source_files = "ios/NavBarListenerModule.h"
+  s.source_files = "NavBarListenerModule.h"
   
   install_modules_dependencies(s)
 end
